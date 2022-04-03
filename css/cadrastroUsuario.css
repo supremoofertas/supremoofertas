@@ -1,0 +1,267 @@
+body {
+
+    background: #e2d9d9;
+}
+
+.cabecalho {
+
+    background: #FC6011;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+
+p {
+
+    color: #fff;
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 25px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+p.voltar {
+
+    color: #fff;
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 55px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 21px;
+
+
+}
+
+h1 {
+    position: absolute;
+    width: 343px;
+    height: 49px;
+    left: 24px;
+    color: #FF0404;
+    top: 113px;
+    font-style: normal;
+    font-size: 24px;
+
+    text-transform: capitalize;
+
+}
+
+label.nome {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 179px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.email {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 251px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.cpf {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 324px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.celular {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 396px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.telefone {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 206px;
+    top: 396px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.cep {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 470px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.cidade {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 206px;
+    top: 470px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+label.endereco {
+    color: #FC6011;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 24px;
+    top: 544px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+
+    text-transform: capitalize;
+}
+
+input {
+
+    border-radius: 15px;
+    border: none;
+
+}
+
+#nome {
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    top: 197px;
+    left: 15px;
+    background-color: #fff;
+}
+
+#email {
+
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    top: 270px;
+    left: 15px;
+    background-color: #fff;
+}
+
+#cpf {
+
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    top: 343px;
+    left: 15px;
+    background-color: #fff;
+}
+
+#celular {
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    top: 415px;
+    left: 15px;
+    background-color: #fff;
+}
+
+#telefone {
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    left: 192px;
+    top: 415px;
+    background-color: #fff;
+}
+
+#cep {
+
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    left: 15px;
+    top: 489px;
+    background-color: #fff;
+}
+
+#cidade {
+
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    left: 192px;
+    top: 489px;
+    background-color: #fff;
+}
+
+#endereco {
+
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    left: 15px;
+    top: 570px;
+    background-color: #fff;
+}
+
+button {
+    background-color: #FC6011;
+    color: #fff;
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    left: 15px;
+    top: 627px;
+    border-radius: 15px;
+    border: none;
+
+}
