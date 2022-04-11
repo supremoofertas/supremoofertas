@@ -1,5 +1,7 @@
-let teste = document.getElementById("botao")
-function teste() {
+function makeLogin(event) {
+    event.preventDefault();
 
-    console.log("clicou")
+    let email = document.getElementsByName("email")[0].value;
+    let password = document.getElementsByName("password")[0].value;
+    console.log(`Email: ${email} | Password: ${password}`);
 }

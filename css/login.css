@@ -1,60 +1,36 @@
-fieldset{
-
-    border: 0;
-}
 body{
 
-    background: #F0F5F9
+    background: #dae0e5
 }
+
 h1{
-    
-        font-family: sans-serif;
-        color: #FF0404;
-        margin-left: 7%;
-        text-align: center;
+    font-family: sans-serif;
+    color: #FF0404;
+    text-align: center;
 }
 
-.campoEmailCpf{
-
+.formfield{
     font-style: normal;
     color: #FC6011;
-    text-align: left -15px;
 }
-.campoSenha{
-    font-style: normal;
-    color: #FC6011;
-    text-align: left;
-}
-#nome{
-    
-    height: 38px;
-    width: 323px;
-    left: 15px;
-    top: 301px;
-    border-radius: 15px;
-
-}
-
 
 input{
-
     border-radius: 15px;
     width: 323.38px;
     border:none;
     height: 38px;
     top:230px;
+    text-align:center;
     
 }
 
 
 #botao {
-    position: absolute;
     width: 323.38px;
     background: #FC6011;
     border-radius: 15px;
     border:none;
     height: 38px;
-    left: 20px;
     top:250px;
     color: #ffff;
     font-size: 15px;
@@ -68,7 +44,6 @@ h2{
     top:285px;
     font-size: 12px;
     color: #FC6011;
-    position: absolute;
     text-transform: capitalize;
     text-align: center;
 

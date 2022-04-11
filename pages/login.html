@@ -10,29 +10,25 @@
     <title>login</title>
 </head>
 <body>
-    <div>
+    <div style="position: absolute;margin-top: 50%; margin-left: auto; margin-right:auto;text-align: center;right: 8px;left: 8px;">
         <h1> LOGIN </h1>
+        <br>
+        <form>
+            <div class="formfield">
+                <label class="labelformfield" for="email"><strong>Email</strong></label><br>
+                <input type="text" name="email" required="">
+            </div><br>
+            <div class="formfield">
+                <label for="senha"><strong>Senha</strong></label><br>
+                <input type="password" name="password" required="">
+            </div><br>
 
+            <button id="botao" type="button" onclick="makeLogin(event)"><strong>Entrar</strong></button>
+
+            <h2 style="color: #FF0404;">Esqueci minha senha</h2>
+        </form>
     </div>
-    <form>
-        <fieldset class="inicio">
-            <div class="campoEmailCpf">
-                <label for="email.cpf"><strong>Email|CPF:</strong></label><br>
-                <input type="text" name="nome" id="caixa" required>
-            </div><br>
-            <div class="campoSenha">
-                <label for="senha"><strong>Senha:</strong></label><br>
-                <input type="password" name="nome" id="caixa" required>
-            </div><br>
-            <button id="botao" type="submit" onclick="chamar"><strong>Entrar</strong></button>
-
-            <h2>Esqueci minha senha</h2>
-        </fieldset>
-
-
-
-    </form>
-    <script>src = "login.js"</script>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>

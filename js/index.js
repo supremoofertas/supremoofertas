@@ -1,5 +1,5 @@
 function loginApp(){
-    alert('Openning screen Login');
+    window.location = "https://supremoofertas.github.io/supremoofertas/pages/login.html";
 }
 
 
