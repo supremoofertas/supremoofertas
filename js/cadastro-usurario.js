@@ -21,17 +21,19 @@ function salvar(event) {
     usuarioObjeto.cidade = cidade;
     usuarioObjeto.endereco = endereco;
 
+    usuarioObjeto.latitude = "-56656565656";
+    usuarioObjeto.longitude = "-56656565656";
+
+
     var payload = JSON.stringify(usuarioObjeto);
     
 
-    enviar('http://localhost:8080/api/v1/companies', 'POST', payload);
+    enviar('https://supremoofertas-api.herokuapp.com/api/v1/companies', 'POST', payload);
 
 }
 
 
-
 function enviar(url, method, body) {
-
     const xhr = new XMLHttpRequest();
 
     xhr.open(method, url, true);
