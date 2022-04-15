@@ -2,7 +2,6 @@ function loginApp(){
     window.location = "https://supremoofertas.github.io/supremoofertas/pages/login.html";
 }
 
-
-function registerOptions(){
-    alert('Openning screen Option Register');
+function cadastrar() {
+    window.location.href = "pages/cadrastroUsuario.html"
 }

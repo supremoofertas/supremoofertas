@@ -5,3 +5,4 @@ function makeLogin(event) {
     let password = document.getElementsByName("password")[0].value;
     console.log(`Email: ${email} | Password: ${password}`);
 }
+
