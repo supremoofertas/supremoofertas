@@ -12,7 +12,7 @@ function salvar(event) {
     var endereco = document.getElementById('endereco').value;
 
     var usuarioObjeto = new Object();
-    usuarioObjeto.nome = nome;
+    usuarioObjeto.name = nome;
     usuarioObjeto.email = email;
     usuarioObjeto.cpf = cpf;
     usuarioObjeto.celular = celular;
@@ -28,7 +28,7 @@ function salvar(event) {
     var payload = JSON.stringify(usuarioObjeto);
     
 
-    enviar('https://supremoofertas-api.herokuapp.com/api/v1/companies', 'POST', payload);
+    enviar('http://supremoofertas-api.herokuapp.com/api/v1/users', 'POST', payload);
 
 }
 
@@ -42,11 +42,11 @@ function enviar(url, method, body) {
     xhr.setRequestHeader('Access-Control-Allow-Credentials', 'true');
 
     xhr.onload = e => {
-        if (xhr.status === 200) {
+        if (xhr.status >= 200) {
 
             var result = xhr.response
-
-            console.log('sucesso ' + result);
+            localStorage.setItem('userConfig', result);
+            console.log('sucesso ' + localStorage.getItem('userConfig'));
             
         } else if (xhr.status >= 400) {
             console.log("erro");
