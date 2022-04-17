@@ -28,7 +28,7 @@ function salvar(event) {
     var payload = JSON.stringify(usuarioObjeto);
     
 
-    enviar('http://supremoofertas-api.herokuapp.com/api/v1/users', 'POST', payload);
+    enviar('https://supremoofertas-api.herokuapp.com/api/v1/users', 'POST', payload);
 
 }
 
