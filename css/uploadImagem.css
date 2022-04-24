@@ -1,0 +1,24 @@
+body {
+    background-color: #FC6011;
+}
+
+
+#centro{
+
+   text-align: center;
+    margin-top: 5%;
+}
+button {
+    background-color: #fff ;
+    color: #FC6011;
+    width: 50%;
+    height: 38px;
+    border-radius: 15px;
+    border: none;
+
+}
+#img{
+    
+    text-align: center;
+    margin-top: 50%;
+}
