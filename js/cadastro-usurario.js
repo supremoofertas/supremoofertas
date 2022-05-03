@@ -1,3 +1,9 @@
+
+function voltar(){
+
+    window.history.back()
+}
+
 function salvar(event) {
 
     event.preventDefault();
