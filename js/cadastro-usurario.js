@@ -52,6 +52,7 @@ function enviar(url, method, body) {
 
             var result = xhr.response
             localStorage.setItem('userConfig', result);
+            window.location = "cadastro-senha-usuario.html"
             console.log('sucesso ' + localStorage.getItem('userConfig'));
             
         } else if (xhr.status >= 400) {
