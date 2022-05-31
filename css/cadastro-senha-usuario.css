@@ -40,3 +40,15 @@ button {
     width: 200px;
     height: 200px;
 }
+
+@media (min-width:300px) and (max-width:1400px){
+
+.circle{
+    padding-block: 3%;
+}
+}@media (min-width:1200px){
+
+    .circle{
+        padding-block: 2%;
+    }
+}
