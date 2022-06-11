@@ -4,12 +4,12 @@ function salvar(event) {
 
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
-    var cpf = document.getElementById('cpf').value;
+    // var cpf = document.getElementById('cpf').value;
     var celular = document.getElementById('celular').value;
-    var telefone = document.getElementById('telefone').value;
-    var cep = document.getElementById('cep').value;
-    var cidade = document.getElementById('cidade').value;
-    var endereco = document.getElementById('endereco').value;
+    // var telefone = document.getElementById('telefone').value;
+    // var cep = document.getElementById('cep').value;
+    // var cidade = document.getElementById('cidade').value;
+    // var endereco = document.getElementById('endereco').value;
 
     var usuarioObjeto = new Object();
     usuarioObjeto.name = nome;
