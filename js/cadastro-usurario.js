@@ -14,12 +14,12 @@ function salvar(event) {
     var usuarioObjeto = new Object();
     usuarioObjeto.name = nome;
     usuarioObjeto.email = email;
-    usuarioObjeto.cpf = cpf;
+    // usuarioObjeto.cpf = cpf;
     usuarioObjeto.celular = celular;
-    usuarioObjeto.telefone = telefone;
-    usuarioObjeto.cep = cep;
-    usuarioObjeto.cidade = cidade;
-    usuarioObjeto.endereco = endereco;
+    // usuarioObjeto.telefone = telefone;
+    // usuarioObjeto.cep = cep;
+    // usuarioObjeto.cidade = cidade;
+    // usuarioObjeto.endereco = endereco;
 
     usuarioObjeto.latitude = "-56656565656";
     usuarioObjeto.longitude = "-56656565656";
