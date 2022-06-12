@@ -3,7 +3,7 @@ body {
     background: #e2d9d9;
 }
 
-.cabecalho {
+#cabecalho {
 
     background: #FC6011;
     position: absolute;
@@ -13,34 +13,25 @@ body {
     top: 0px;
 }
 
-p {
+.container {
 
-    color: #fff;
-    position: absolute;
-    width: 83px;
-    height: 24px;
-    left: 25px;
-    top: 10px;
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 18px;
-    line-height: 21px;
+    text-align: center;
+
 }
 
-p.voltar {
-
+.voltar {
+    background: #FC6011;
     color: #fff;
     position: absolute;
-    width: 83px;
-    height: 24px;
-    left: 55px;
-    top: 10px;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 15px;
     font-style: normal;
     font-weight: 700px;
     font-size: 18px;
     line-height: 21px;
-
-
+    border: none;
 }
 
 h1 {
@@ -52,7 +43,6 @@ h1 {
     top: 113px;
     font-style: normal;
     font-size: 24px;
-
     text-transform: capitalize;
 
 }
@@ -62,12 +52,11 @@ label.nome {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 24px;
+    left: 45px;
     top: 179px;
     font-style: normal;
     font-weight: 700px;
     font-size: 12px;
-
     text-transform: capitalize;
 }
 
@@ -76,7 +65,7 @@ label.email {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 24px;
+    left: 45px;
     top: 251px;
     font-style: normal;
     font-weight: 700px;
@@ -90,7 +79,7 @@ label.email {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 24px;
+    left: 45px;
     top: 324px;
     font-style: normal;
     font-weight: 700px;
@@ -132,7 +121,7 @@ label.celular {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 24px;
+    left: 45px;
     top: 470px;
     font-style: normal;
     font-weight: 700px;
@@ -146,7 +135,7 @@ label.celular {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 206px;
+    left: 230px;
     top: 470px;
     font-style: normal;
     font-weight: 700px;
@@ -160,7 +149,7 @@ label.endereco {
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 24px;
+    left: 45px;
     top: 544px;
     font-style: normal;
     font-weight: 700px;
@@ -181,7 +170,8 @@ input {
     width: 329px;
     height: 38px;
     top: 197px;
-    left: 15px;
+    left: 40px;
+
     background-color: #fff;
 }
 
@@ -191,7 +181,8 @@ input {
     width: 329px;
     height: 38px;
     top: 270px;
-    left: 15px;
+    left: 40px;
+
     background-color: #fff;
 }
 
@@ -201,7 +192,8 @@ input {
     width: 329px;
     height: 38px;
     top: 343px;
-    left: 15px;
+    left: 40px;
+
     background-color: #fff;
 } */
 
@@ -228,7 +220,7 @@ input {
     position: absolute;
     width: 150px;
     height: 38px;
-    left: 15px;
+    left: 40px;
     top: 489px;
     background-color: #fff;
 } */
@@ -238,7 +230,7 @@ input {
     position: absolute;
     width: 150px;
     height: 38px;
-    left: 192px;
+    left: 220px;
     top: 489px;
     background-color: #fff;
 }
@@ -248,12 +240,12 @@ input {
     position: absolute;
     width: 329px;
     height: 38px;
-    left: 15px;
+    left: 40px;
     top: 570px;
     background-color: #fff;
 } */
 
-button {
+.salvar{
     background-color: #FC6011;
     color: #fff;
     position: absolute;
@@ -263,5 +255,5 @@ button {
     top: 410px;
     border-radius: 15px;
     border: none;
-
+    
 }

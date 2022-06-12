@@ -1,3 +1,9 @@
+
+function voltar() {
+
+    window.history.back()
+}
+
 function salvar(event) {
 
     event.preventDefault();
@@ -26,7 +32,7 @@ function salvar(event) {
 
 
     var payload = JSON.stringify(usuarioObjeto);
-    
+
 
     enviar('https://supremoofertas-api.herokuapp.com/api/v1/users', 'POST', payload);
 
@@ -46,8 +52,9 @@ function enviar(url, method, body) {
 
             var result = xhr.response
             localStorage.setItem('userConfig', result);
+            window.location = "cadastro-senha-usuario.html"
             console.log('sucesso ' + localStorage.getItem('userConfig'));
-            
+
         } else if (xhr.status >= 400) {
             console.log("erro");
         }
