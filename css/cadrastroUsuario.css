@@ -74,7 +74,7 @@ label.email {
     text-transform: capitalize;
 }
 
-label.cpf {
+/* label.cpf {
     color: #FC6011;
     position: absolute;
     width: 172px;
@@ -86,15 +86,15 @@ label.cpf {
     font-size: 12px;
 
     text-transform: capitalize;
-}
+} */
 
 label.celular {
     color: #FC6011;
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 45px;
-    top: 396px;
+    left: 24px;
+    top: 325px;
     font-style: normal;
     font-weight: 700px;
     font-size: 12px;
@@ -102,21 +102,21 @@ label.celular {
     text-transform: capitalize;
 }
 
-label.telefone {
+/* label.telefone {
     color: #FC6011;
     position: absolute;
     width: 172px;
     height: 24px;
-    left: 230px;
-    top: 396px;
+    left: 24px;
+    top: 400px;
     font-style: normal;
     font-weight: 700px;
     font-size: 12px;
 
     text-transform: capitalize;
-}
+} */
 
-label.cep {
+/* label.cep {
     color: #FC6011;
     position: absolute;
     width: 172px;
@@ -128,9 +128,9 @@ label.cep {
     font-size: 12px;
 
     text-transform: capitalize;
-}
+} */
 
-label.cidade {
+/* label.cidade {
     color: #FC6011;
     position: absolute;
     width: 172px;
@@ -142,8 +142,8 @@ label.cidade {
     font-size: 12px;
 
     text-transform: capitalize;
-}
-
+} */
+/* 
 label.endereco {
     color: #FC6011;
     position: absolute;
@@ -156,7 +156,7 @@ label.endereco {
     font-size: 12px;
 
     text-transform: capitalize;
-}
+} */
 
 input {
 
@@ -186,7 +186,7 @@ input {
     background-color: #fff;
 }
 
-#cpf {
+/* #cpf {
 
     position: absolute;
     width: 329px;
@@ -195,27 +195,26 @@ input {
     left: 40px;
 
     background-color: #fff;
-}
+} */
 
 #celular {
     position: absolute;
-    width: 150px;
+    width: 329px;
     height: 38px;
-    top: 415px;
-    left: 40px;
-
+    top: 345px;
+    left: 15px;
     background-color: #fff;
 }
 
-#telefone {
+/* #telefone {
     position: absolute;
-    width: 150px;
+    width: 329px;
     height: 38px;
-    left: 220px;
-    top: 415px;
+    top: 420px;
+    left: 15px;
     background-color: #fff;
-}
-
+} */
+/* 
 #cep {
 
     position: absolute;
@@ -224,9 +223,9 @@ input {
     left: 40px;
     top: 489px;
     background-color: #fff;
-}
+} */
 
-#cidade {
+/* #cidade {
 
     position: absolute;
     width: 150px;
@@ -244,7 +243,7 @@ input {
     left: 40px;
     top: 570px;
     background-color: #fff;
-}
+} */
 
 .salvar{
     background-color: #FC6011;
@@ -252,8 +251,8 @@ input {
     position: absolute;
     width: 329px;
     height: 38px;
-    left: 40px;
-    top: 627px;
+    left: 15px;
+    top: 410px;
     border-radius: 15px;
     border: none;
     

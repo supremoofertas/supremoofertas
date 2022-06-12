@@ -41,10 +41,10 @@ function validar() {
 
 
     if (campoErrados.length == 0) {
-        console.log("enviado")
         salvarSenha();
     }
 }
+
 
 function salvarSenha() {
 
@@ -55,7 +55,8 @@ function salvarSenha() {
     var payload = JSON.stringify(senhaUsuario);
 
     enviarSenhaUsuario('https://supremoofertas-api.herokuapp.com/api/v1/users/1', 'PUT', payload);
-}
+} 
+
 
 function enviarSenhaUsuario(url, method, body) {
 
@@ -76,6 +77,8 @@ function enviarSenhaUsuario(url, method, body) {
         }
     }
     xhr.send(body);
+
+    window.location.href = "login.html"
 }
 
 

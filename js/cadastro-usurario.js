@@ -10,22 +10,22 @@ function salvar(event) {
 
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
-    var cpf = document.getElementById('cpf').value;
+    // var cpf = document.getElementById('cpf').value;
     var celular = document.getElementById('celular').value;
-    var telefone = document.getElementById('telefone').value;
-    var cep = document.getElementById('cep').value;
-    var cidade = document.getElementById('cidade').value;
-    var endereco = document.getElementById('endereco').value;
+    // var telefone = document.getElementById('telefone').value;
+    // var cep = document.getElementById('cep').value;
+    // var cidade = document.getElementById('cidade').value;
+    // var endereco = document.getElementById('endereco').value;
 
     var usuarioObjeto = new Object();
     usuarioObjeto.name = nome;
     usuarioObjeto.email = email;
-    usuarioObjeto.cpf = cpf;
+    // usuarioObjeto.cpf = cpf;
     usuarioObjeto.celular = celular;
-    usuarioObjeto.telefone = telefone;
-    usuarioObjeto.cep = cep;
-    usuarioObjeto.cidade = cidade;
-    usuarioObjeto.endereco = endereco;
+    // usuarioObjeto.telefone = telefone;
+    // usuarioObjeto.cep = cep;
+    // usuarioObjeto.cidade = cidade;
+    // usuarioObjeto.endereco = endereco;
 
     usuarioObjeto.latitude = "-56656565656";
     usuarioObjeto.longitude = "-56656565656";
