@@ -40,8 +40,7 @@ function enviar(url, method, body) {
         if (xhr.status >= 200) {
 
             var result = xhr.response
-            console.log(result);
-            SaveUserPasswordChannelJS.postMessage("{\"onCalback\":\"onSaveUserId\", \"value\": result}");
+            SaveUserPasswordChannelJS.postMessage("{\"onCalback\":\"onSaveUserId\", \"value\": $result}");
             window.location = "cadastro-senha-usuario.html"
 
         } else if (xhr.status >= 400) {
