@@ -69,8 +69,9 @@ function enviarSenhaUsuario(url, method, body) {
 
     xhr.onload = e => {
         if (xhr.status >= 200) {
-            console.log("entrei no onload")
-            alert("senha sucesso")
+            
+            var payload = "{\"onCalback\":\"onSavePassword\", \"value\": true}";
+            SaveUserPasswordChannelJS.postMessage(payload);
         } else if (xhr.status >= 400) {
 
             alert("erro na senha ")
