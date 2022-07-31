@@ -10,23 +10,12 @@ function salvar(event) {
 
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
-    // var cpf = document.getElementById('cpf').value;
     var celular = document.getElementById('celular').value;
-    // var telefone = document.getElementById('telefone').value;
-    // var cep = document.getElementById('cep').value;
-    // var cidade = document.getElementById('cidade').value;
-    // var endereco = document.getElementById('endereco').value;
 
     var usuarioObjeto = new Object();
     usuarioObjeto.name = nome;
     usuarioObjeto.email = email;
-    // usuarioObjeto.cpf = cpf;
     usuarioObjeto.celular = celular;
-    // usuarioObjeto.telefone = telefone;
-    // usuarioObjeto.cep = cep;
-    // usuarioObjeto.cidade = cidade;
-    // usuarioObjeto.endereco = endereco;
-
     usuarioObjeto.latitude = "-56656565656";
     usuarioObjeto.longitude = "-56656565656";
 
@@ -51,9 +40,9 @@ function enviar(url, method, body) {
         if (xhr.status >= 200) {
 
             var result = xhr.response
-            localStorage.setItem('userConfig', result);
+            console.log(result);
+            SaveUserPasswordChannelJS.postMessage("{\"onCalback\":\"onSaveUserId\", \"value\": result}");
             window.location = "cadastro-senha-usuario.html"
-            console.log('sucesso ' + localStorage.getItem('userConfig'));
 
         } else if (xhr.status >= 400) {
             console.log("erro");
